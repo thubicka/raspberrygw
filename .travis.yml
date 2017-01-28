@@ -10,3 +10,5 @@ deploy:
   file: target/raspigw*.jar
   on:
     repo: thubicka/raspberrygw
+    tags: true
+    

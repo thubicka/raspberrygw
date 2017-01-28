@@ -7,7 +7,7 @@ notifications:
     
 deploy:
   provider: releases
-  api_key: "1171ac5889f0484069e262faa0e3b2965f75f88f"
+  api_key: "e4b4f81aedeaa17bbaaf46237bb05cf2278b1b54"
   file_glob: true
   file: "target/raspigw*.jar"
   skip_cleanup: true

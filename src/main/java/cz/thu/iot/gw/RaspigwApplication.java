@@ -8,5 +8,6 @@ public class RaspigwApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RaspigwApplication.class, args);
+		
 	}
 }

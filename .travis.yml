@@ -11,4 +11,4 @@ deploy:
   on:
     repo: thubicka/raspberrygw
     tags: true
-    
+    skip_cleanup: true

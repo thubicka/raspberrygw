@@ -1,15 +1,12 @@
 language: java
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 notifications:
   email: true
-    
 deploy:
   provider: releases
-  api_key: "e4b4f81aedeaa17bbaaf46237bb05cf2278b1b54"
-  file_glob: true
-  file: "target/raspigw*.jar"
-  skip_cleanup: true
+  api_key:
+    secure: 5DQZE2zbfcQI6UielGQUqJk+/Q/2UzbhAHPwSHe3srZtgbmV+AqS/NOhJn4RzBhoDRqZlS02Hxs50b9hovrZJ3kBPWR3x/9dHBK27WJsqDEyK8FhvO5fDiyWW39NDBQ7P2/dijSuz9bR0iONWIc7z1Epcc7DjNDQQHUPoAB98KbIjioJFRB5Svi7vrSNMUPatq7WuuO0SMgIkoiMY4igRsEgQd4WZopvGLEgPq875C9gi3kyne6EvsHnSIcHRl+SUZ4pJrD426P7TH0fU0MfnLK0SKO9hgA4eGzWzFzHgLdi4ZcPdKgp5iQHmLKSB9q/S8fhu5VaUrBiDeWyl0H+bqSszeATBUfrtkW2+KsMQ7caTFLYelGzwtlEF7n69Cta38wgwLIpZL+Y6N2KEkEQ4+qEoYCRXDsN0fz1B4TubtncHKfnzRIVWruCzbttAplpzKql4ndnLPJU3AVD1DI3UNOOEFFoz5r/X+uhH3LLk2Fp1XwhUiW+hYWgOfSzOcJ44fRQ5eImwfvrP6GcS76eJghS+4esaOJM5vdOIHv97bOojM/UA6/7P/A9mRW7b94SKzayQ0+n76o4UQC+9rNNBioabaJL3NSkmEHu6AhSMHi2ecCBN2Ch3VXAYHc8lWtE4TycalkORyJLzxfM4BWEAHcUCLXOgJaNvJaXpngZLEw=
+  file: target/raspigw*.jar
   on:
-    tags: true
+    repo: thubicka/raspberrygw

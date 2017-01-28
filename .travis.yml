@@ -1,10 +1,15 @@
 language: java
 jdk:
   - oraclejdk8
+
+notifications:
+  email: true
+    
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
-  file: "FILE TO UPLOAD"
+  api_key: "1171ac5889f0484069e262faa0e3b2965f75f88f"
+  file_glob: true
+  file: "target/raspigw*.jar"
   skip_cleanup: true
   on:
     tags: true

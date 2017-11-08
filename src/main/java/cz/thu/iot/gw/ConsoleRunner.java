@@ -12,6 +12,7 @@ import com.pi4j.platform.PlatformManager;
 import com.pi4j.system.NetworkInfo;
 import com.pi4j.system.SystemInfo;
 
+
 @Component
 public class ConsoleRunner implements CommandLineRunner {
 
@@ -32,6 +33,7 @@ public class ConsoleRunner implements CommandLineRunner {
 	public void printSystemInfo()
 			throws InterruptedException, IOException, UnsupportedOperationException, ParseException {
 		// display a few of the available system information properties
+    // developing new feature
 		System.out.println("----------------------------------------------------");
 		System.out.println("PLATFORM INFO");
 		System.out.println("----------------------------------------------------");
